@@ -1,0 +1,23 @@
+# build outputs (regenerate with build.py)
+final*.xlsx
+demo*.xlsx
+stress.xlsx
+__pycache__/
+*.pyc
+prev/
+preview.xlsx
+p-*.png
+*.pdf
+
+# OS / editor / environment
+.DS_Store
+._*
+.venv/
+venv/
+.vscode/
+.idea/
+
+# NEVER commit real data: exports of the live Google Sheet contain students' names and parents' phone numbers
+exports/
+*export*.xlsx
+*real*.xlsx
